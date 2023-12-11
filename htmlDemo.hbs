@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Web Page Accessibility</title>
+</head>
+<body>
+ <main>
+    <!-- Text Section -->
+    <section>
+      <h2>Text</h2>
+      <p>This section contains paragraphs of text and is readable without requiring any images or audio.</p>
+    </section>
+
+    <!-- Images Section -->
+    <section>
+      <h2>Images</h2>
+      <img
+        width="33%"
+        height="300"
+        src="https://images.unsplash.com/photo-1696530944705-59a53bfb0dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3132&q=80"
+        alt="Image 1"
+      />
+      <!-- More images -->
+      <p>This section contains at least three images with alt text.</p>
+    </section>
+
+    <!-- Audio Section -->
+    <section>
+      <h2>Audio</h2>
+      <audio controls>
+        <source
+          src="https://pat-crawford-sdds.netlify.app/shared/fall-2023/web700/A3/sample-audio.mp3"
+          type="audio/mpeg"
+        />
+        <source
+          src="https://pat-crawford-sdds.netlify.app/shared/fall-2023/web700/A3/sample-audio.ogg"
+          type="audio/ogg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+      <p>
+        This section contains an HTML5 audio player with sample audio
+        files.
+      </p>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+      <h2>Video</h2>
+      <video controls>
+        <source
+          src="https://pat-crawford-sdds.netlify.app/shared/fall-2023/web700/A3/sample-video.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://pat-crawford-sdds.netlify.app/shared/fall-2023/web700/A3/sample-video.ogg"
+          type="video/ogg"
+        />
+        <source
+          src="https://pat-crawford-sdds.netlify.app/shared/fall-2023/web700/A3/sample-video.webm"
+          type="video/webm"
+        />
+        Your browser does not support the video element.
+      </video>
+      <p>
+        This section contains
